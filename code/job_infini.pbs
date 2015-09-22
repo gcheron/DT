@@ -1,0 +1,11 @@
+#$ -l mem_req=4000m
+#$ -l h_vmem=4000m
+#$ -j y
+#$ -o /sequoia/data2/gcheron/CVPR14/features/dummy/jobs/logs/improved-trajectories
+#$ -N dense_trajectories.0
+
+
+while true
+do
+	sleep 10
+done
